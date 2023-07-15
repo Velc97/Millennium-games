@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="LIBRERIE">
+        <xs:complexType> 
+            <xs:sequence>
+                <xs:element ref="Libreria" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+	<xs:element name="Libreria">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:integer" maxOccurs="unbounded" minOccurs="0"/>
+			</xs:sequence>
+        <xs:attribute name="utenteAssociato" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

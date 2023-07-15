@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="COMMENTI">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="sezioneCommentiGioco" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+	<xs:element name="sezioneCommentiGioco">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="commento" maxOccurs="unbounded" minOccurs="0" type="TipoCommento"/>
+			</xs:sequence>
+        <xs:attribute name="idGioco" type="xs:integer"/>
+		</xs:complexType>
+	</xs:element>
+
+    <xs:complexType name="TipoCommento">
+        <xs:sequence>
+            <xs:element name="utente" type="xs:string"/>
+            <xs:element name="testo" type="xs:string"/>
+            <xs:element name="recensione" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    <xs:attribute name="commentoCancellato" type="xs:string"/>
+    </xs:complexType>
+
+
+</xs:schema>

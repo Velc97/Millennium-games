@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<VIDEOGIOCHI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SchemaGiochi.xsd">
+	<Videogioco>
+		<idGioco>31</idGioco>
+		<nomeGioco>The Witcher 3</nomeGioco>
+		<genere>GDR</genere>
+		<descrizione>Ripercorri la via del lupo nei panni di Geralt di Rivia, combattendo contro la Caccia Selvaggia ispirata ai miti polacchi. </descrizione>
+		<prezzo>30.50</prezzo>
+		<img>sc1.jpg</img>
+		<img>sc2.jpg</img>
+		<img>sc3.jpg</img>
+		<dispo>2016-10-25</dispo>
+	</Videogioco> 
+
+	<Videogioco>
+		<idGioco>2</idGioco>
+		<nomeGioco>Spyro Reignited Trylogy</nomeGioco>
+		<genere>Platformer</genere>
+		<descrizione>La trilogia delle avventure del draghetto Spyro ora riunite in un unico remake.</descrizione>
+		<prezzo>20.00</prezzo>
+		<img>sc1.jpg</img>
+		<img>sc2.jpg</img>
+		<img>sc3.jpg</img>
+		<img>sc4.jpg</img>
+		<dispo>2010-07-10</dispo>
+	</Videogioco> 
+
+	<Videogioco>
+		<idGioco>25</idGioco>
+		<nomeGioco>Medieval City</nomeGioco>
+		<genere>Gestionale</genere>
+		<descrizione>Come si comportava il re di un feudo nel medioevo? In questo gioco puoi provarlo.</descrizione>
+		<prezzo>5.00</prezzo>
+		<dispo>2018-05-07</dispo>
+	</Videogioco>
+	
+	<Videogioco>
+		<idGioco>77</idGioco>
+		<nomeGioco>Metro Exodus</nomeGioco>
+		<genere>FPS</genere>
+		<descrizione>Basato sugli omonimi libri di Dmitrij Gluchovskij, percorri la strada di Artyom nel trovare una zona sicura dal mondo radioattivo in cui nacque.</descrizione>
+		<prezzo>50.00</prezzo>
+		<img>sc1.jpg</img>
+		<img>sc2.jpg</img>
+		<img>sc3.jpg</img>
+		<img>sc4.jpg</img>
+		<dispo>2033-01-02</dispo>
+	</Videogioco>
+</VIDEOGIOCHI>

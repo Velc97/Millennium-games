@@ -1,0 +1,91 @@
+/*File di stile generico per il sito.*/
+
+/*Riguardo il corpo.*/
+body 
+	{ /*Si setta il background.*/
+	 background-image: url(materials/background/Sfondo.jpg); /*Uri del background.*/
+	 background-size:  cover; /*Dimensione totale della pagina.*/  
+	 background-attachment: fixed; /*Immagine fissa.*/
+	 background-repeat: no-repeat; /*Sfondo unico e non ripetuto.*/
+	 background-position: center; /*Posizionato al centro.*/
+	 min-height: 100%; /*Questo specifica che il corpo occupa almeno il 100% della pagina.*/
+	}
+
+/*Precisazione per l'HTML.*/
+html {min-height: 100%;} /*Altezza minima della pagina.*/
+
+/*Classe che specifica il colore per il testo.*/
+.ciano {color: #7FDBFF;}
+
+/*Classe che specifica certe tabelle.*/
+table.backgroundTabella
+	{
+	 border:3px solid black;
+	 background-color: #001f3f;
+	 margin: 0 auto;
+	}
+
+/*Carico il file con il font scaricato da google.*/
+@font-face
+	{
+     font-family: myRoboto; /*Potrebbe non essere visto da alcuni browser.*/
+     src: url(materials/fonts/Roboto-Regular.ttf);
+	}
+
+/*Classe che specifica le intestazioni delle faq.*/
+h1.faqTitle
+	{font-family: myRoboto; color: #0074D9;}
+h2.faqTitle
+	{font-family: myRoboto; color: #0074D9;}
+h3.faqTitle
+	{font-family: myRoboto; color: #0074D9; display: inline-block;}
+
+/*Classe che specifica lo stile del banner della pagina principale.*/
+.bannerMP
+	{text-align: center;}
+.bannerMP_CS
+	{
+	 font-family: Arial; 
+	 color: #FF4136; 
+	 font-size: 50px;
+	 background-image: url(materials/background/csBackground.jpg); 
+	 background-size: contain;
+	 background-position: center;
+	}
+
+/*Stile per i bottoni.*/
+.bottone /*Prima della transizione.*/
+	{
+	 background-color: white; 
+     color: black; 
+     border: 2px solid #008CBA; 
+	 transition-duration: 0.4s;
+	}
+.bottone:hover /*Dopo la transizione.*/
+	{
+	 background-color: #008CBA;
+     color: white;
+	}
+
+.bottoneRosso /*Prima della transizione.*/
+	{
+	 background-color: white; 
+     color: black; 
+     border: 2px solid #ac031f; 
+	 transition-duration: 0.4s;
+	}
+.bottoneRosso:hover /*Dopo la transizione.*/
+	{
+	 background-color: #ac031f;
+     color: white;
+	}
+
+/*Stile per lo striping della tabella del catalogo.*/
+.catalogo tbody tr:nth-child(even) 
+	{background-color: #39CCCC;}
+.catalogo tbody tr:nth-child(odd)
+	{background-color: #7FDBFF;}	
+
+	
+
+

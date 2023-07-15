@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMENTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SchemaCommenti.xsd">
+
+    <sezioneCommentiGioco idGioco="31">
+        <commento commentoCancellato="NO">
+            <utente>CosmoVellucci</utente>
+            <testo>Questo gioco e' molto bello!</testo>
+            <recensione>P</recensione>
+        </commento>
+        <commento commentoCancellato="NO">
+            <utente>Arturo</utente>
+            <testo>Concordo pienamente con te Cosmo. E' eccezionale.</testo>
+            <recensione></recensione>
+        </commento>
+        <commento commentoCancellato="SI">
+            <utente>Manigoldo</utente>
+            <testo>QUESTO COMMENTO E' CANCELLATO.</testo>
+            <recensione></recensione>
+        </commento>
+        <commento commentoCancellato="NO">
+            <utente>CosmoVellucci</utente>
+            <testo>Ti ringrazio, caro Arturo.</testo>
+            <recensione></recensione>
+        </commento>
+    </sezioneCommentiGioco>
+
+    <sezioneCommentiGioco idGioco="2">
+    </sezioneCommentiGioco>
+
+    <sezioneCommentiGioco idGioco="25">
+    </sezioneCommentiGioco>
+
+    <sezioneCommentiGioco idGioco="77">
+    </sezioneCommentiGioco>
+
+</COMMENTI>

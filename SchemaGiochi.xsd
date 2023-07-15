@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="VIDEOGIOCHI">
+	<xs:complexType> 
+		<xs:sequence>
+			<xs:element ref="Videogioco" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Videogioco">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="idGioco" type="xs:integer"/> 
+				<xs:element name="nomeGioco" type="xs:string"/> 
+				<xs:element name="genere" type="xs:string"/> 
+				<xs:element name="descrizione" type="xs:string"/> 
+				<xs:element name="prezzo" type="xs:decimal"/> 
+				<xs:element name="img" type="xs:string" maxOccurs="4" minOccurs="0"/>
+				<xs:element name="dispo" type="xs:date"/> 
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>
